@@ -34,11 +34,11 @@ CREATE TABLE emotions (
     emotion_16 VARCHAR(20),
     emotion_17 VARCHAR(20)    
 );
-
+-- responses = CRUD table
 CREATE TABLE responses (
             id SERIAL PRIMARY KEY,
     question_1 TEXT,
     question_2 TEXT,
-       emotion INTEGER REFERENCES emotions(id),
+   emotions_id INTEGER REFERENCES emotions(id),
       users_id INTEGER REFERENCES users(id)
 );

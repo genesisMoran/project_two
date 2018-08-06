@@ -5,6 +5,11 @@ INSERT INTO users
 VALUES 
 (DEFAULT, 'Genesis Moran', 25);
 
+INSERT INTO users 
+(id, name, age)
+VALUES 
+(DEFAULT, 'Julian German', 9);
+
 INSERT INTO emotions
 (id, 
 emotion_1, 
@@ -48,7 +53,7 @@ INSERT INTO responses
 (id, 
 question_1, 
 question_2, 
-emotion, 
+emotions_id, 
 users_id)
 VALUES
 (DEFAULT, 
@@ -56,3 +61,16 @@ VALUES
 'This is a test too', 
 1, 
 1);
+
+INSERT INTO responses
+(id, 
+question_1, 
+question_2, 
+emotions_id, 
+users_id)
+VALUES
+(DEFAULT, 
+'This is a test', 
+'This is a test too', 
+3, 
+2);
