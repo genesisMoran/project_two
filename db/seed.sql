@@ -5,20 +5,6 @@ INSERT INTO users
 VALUES 
 (DEFAULT, 'Genesis Moran', 25);
 
-INSERT INTO responses
-(id, 
-impression_1, 
-impression_2, 
-impression_3, 
-users_id)
-VALUES
-(DEFAULT, 
-'This is a test', 
-'This is a test too', 
-DEFAULT, 
-DEFAULT);
--- Question: Should I hard-code the number or keep it @ DEFAULT(/something similar)?
-
 INSERT INTO emotions
 (id, 
 emotion_1, 
@@ -57,3 +43,16 @@ VALUES
 'Despair',
 'Blame',
 'Humiliation');
+
+INSERT INTO responses
+(id, 
+question_1, 
+question_2, 
+emotion, 
+users_id)
+VALUES
+(DEFAULT, 
+'This is a test', 
+'This is a test too', 
+1, 
+1);

@@ -5,21 +5,13 @@ CREATE DATABASE unfiltered_experiment_db;
 \c unfiltered_experiment_db;
 
 DROP TABLE IF EXISTS users;
-DROP TABLE IF EXISTS responses;
 DROP TABLE IF EXISTS emotions;
+DROP TABLE IF EXISTS responses;
 
 CREATE TABLE users (
             id SERIAL PRIMARY KEY,
           name VARCHAR(50),
            age INTEGER
-);
-
-CREATE TABLE responses (
-            id SERIAL PRIMARY KEY,
-  impression_1 TEXT,
-  impression_2 TEXT,
-  impression_3 INTEGER REFERENCES emotions(id),
-      users_id INTEGER REFERENCES users(id)
 );
 
 CREATE TABLE emotions (
@@ -41,4 +33,12 @@ CREATE TABLE emotions (
     emotion_15 VARCHAR(20),
     emotion_16 VARCHAR(20),
     emotion_17 VARCHAR(20)    
+);
+
+CREATE TABLE responses (
+            id SERIAL PRIMARY KEY,
+    question_1 TEXT,
+    question_2 TEXT,
+       emotion INTEGER REFERENCES emotions(id),
+      users_id INTEGER REFERENCES users(id)
 );
