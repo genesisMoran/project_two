@@ -5,8 +5,8 @@ CREATE DATABASE unfiltered_experiment_db;
 \c unfiltered_experiment_db;
 
 DROP TABLE IF EXISTS users;
-DROP TABLE IF EXISTS emotions;
 DROP TABLE IF EXISTS responses;
+DROP TABLE IF EXISTS emotions;
 
 CREATE TABLE users (
             id SERIAL PRIMARY KEY,
