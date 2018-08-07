@@ -6,11 +6,5 @@ const db = require('../connection');
 // const db = pgp(dbConfig);
 
 module.exports = {
-  destroy(id) {
-    return db.one(`
-        DELETE FROM responses
-        WHERE id = $1
-        RETURNING *
-        `, id);
-  }
+
 };
