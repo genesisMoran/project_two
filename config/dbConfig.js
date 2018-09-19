@@ -3,3 +3,4 @@ module.exports = process.env.DATABASE_URL || {
   port:     process.env.DB_PORT || 5432,
   database: process.env.DB_NAME || 'response_dev',
 };
+

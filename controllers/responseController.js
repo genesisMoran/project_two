@@ -22,29 +22,4 @@ module.exports = {
         next(rejection);
       });
   },
-
-  // create(req, res, next) {
-  //   model.create(req.body)
-  //     .then((response) => {
-  //       res.locals.response = response;
-  //       next();
-  //     })
-  //     .catch(err => next(err));
-  // },
-
-  // update(req, res, next) {
-  //   req.body.id = req.params.id;
-  //   model.update(req.body)
-  //     .then((response) => {
-  //       res.locals.response = response;
-  //       next();
-  //     })
-  //     .catch(err => next(err));
-  // },
-
-  // destroy(req, res, next) {
-  //   model.destroy(req.params.id)
-  //     .then(() => next())
-  //     .catch(err => next(err));
-  // },
 };
