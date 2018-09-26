@@ -38,7 +38,7 @@ The technologies used for this project include...
 (photo)
 
 ## Coming Soon!
-The Raíces app will receive upgrades such as:
+The *Nu v* app will receive upgrades such as:
 * User authentication
 
 ## References Include
