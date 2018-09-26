@@ -1,8 +1,8 @@
-# Raíces
-**Let's talk about our roots.**
+# Nu V
+**This is an app about clouds.**
 
 ## Intro
-Where are you from? My app, Raíces, explores that question.
+
 
 ## User Stories
 * As a user I want to Create
