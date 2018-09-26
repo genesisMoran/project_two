@@ -1,4 +1,4 @@
-# Nu V
+# NuV
 **This is an app about clouds.**
 
 ## Intro
@@ -38,7 +38,7 @@ The technologies used for this project include...
 (photo)
 
 ## Coming Soon!
-The *Nu v* app will receive upgrades such as:
+The NuV app will receive upgrades such as:
 * User authentication
 
 ## References Include
