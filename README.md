@@ -1,8 +1,7 @@
-# Raíces
-**Let's talk about our roots.**
+# Do you watch Black Mirror?
 
 ## Intro
-Where are you from? My app, Raíces, explores that question.
+
 
 ## User Stories
 * As a user I want to Create
@@ -17,9 +16,8 @@ Where are you from? My app, Raíces, explores that question.
 (photo)
 
 ## See App Here
-ksbfksbbdkb
+
 #### Please Note:
-jhdshgbsdgdbsg
 
 ## Technologies Used
 The technologies used for this project include...
@@ -38,11 +36,8 @@ The technologies used for this project include...
 (photo)
 
 ## Coming Soon!
-The Raíces app will receive upgrades such as:
+The ___ app will receive upgrades such as:
 * User authentication
 
 ## References Include
-chgcjgvjhvvv
-
 ## Special Thanks To
-gchcgcgjvjvjhv
