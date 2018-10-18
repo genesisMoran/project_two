@@ -1,5 +1,4 @@
-# NuV
-**This is an app about clouds.**
+# Do you watch Black Mirror?
 
 ## Intro
 
@@ -17,9 +16,8 @@
 (photo)
 
 ## See App Here
-ksbfksbbdkb
+
 #### Please Note:
-jhdshgbsdgdbsg
 
 ## Technologies Used
 The technologies used for this project include...
@@ -38,11 +36,8 @@ The technologies used for this project include...
 (photo)
 
 ## Coming Soon!
-The NuV app will receive upgrades such as:
+The ___ app will receive upgrades such as:
 * User authentication
 
 ## References Include
-chgcjgvjhvvv
-
 ## Special Thanks To
-gchcgcgjvjvjhv
